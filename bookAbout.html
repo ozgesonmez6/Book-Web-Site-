@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html>
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0" >
+   <title>book</title>
+   <link href="css/style.css" rel="stylesheet" type="text/css">	
+   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+   <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"  rel="stylesheet">
+</head>
+
+<body>
+
+  <div class="container">
+     <div class="navbar">
+	    <div class="logo">
+		    <a href="index.html"><img src="images/logo3.png" width="125px" height="55px"></a>
+		</div>
+		
+		<nav>
+		   <ul id="menuItems">
+			   <li><a href="index.html">Ana Sayfa</a></li>
+			   <li><a href="book.html">Kitaplar</a></li>
+			   <li><a href="bookAbout.html">Kitaplar Hakkında</a></li>
+			   <li><a href="#">İletişim</a></li>
+			   <li><a href="account.html">Hesap</a></li>  
+		   </ul>
+		</nav>
+		
+		<a href="cart.html"><img src="images/bag.png" height="30px" width="30px"></a>
+		<img src="images/menu.png" class="menu-icon" onclick="menuToggle()">
+	 </div>
+   </div>
+   
+<!--------kitap detayları--------------->
+
+<div class="small-container single-product">
+   <div class="row">
+     <div class="col-2">
+	     <img src="images/categories1.png" width="100%" id="ProductImg">
+		 
+		 <div class="small-img-row">
+		    <div class="small-img-col">
+		         <img src="images/categories5.png" width="100%" class="small-img">
+		    </div>
+			
+			<div class="small-img-col">
+		         <img src="images/categories6.png" width="100%" class="small-img">
+		    </div>
+			
+			<div class="small-img-col">
+		         <img src="images/categories7.png" width="100%" class="small-img">
+		    </div>
+			
+			<div class="small-img-col">
+		         <img src="images/categories8.png" width="100%" class="small-img">
+		    </div>
+		 </div>
+		 
+	 </div>
+	 
+	 <div class="col-2">
+	    <p>Ayşe Kulin</p>
+		<h1>Adı Aylin</h1>
+		<h4>20 TL</h4>
+		<select>
+		  <option>Seçin</option>
+		  <option>Normal Boy</option>
+		  <option>Cep Boy</option>
+		</select>
+		<input type="number" value="1">
+		<a href="" class="btn">Sepete Ekle</a>
+		
+		<h3>Kitap Detayları  <i class="fa fa-indent"></i></h3>
+		<br>
+		<p>
+		Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. 
+		It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. 
+		It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum
+		</p>
+	 
+	 </div>
+    </div>
+</div>
+<!---------title---------->
+<div class="small-container">
+   <div class="row row-2">
+      
+       <h1>İlgili Kitaplar</h1>
+       <p>Daha Fazla Göster</p>
+
+    </div>
+</div>
+<!------ featured books ---->
+<div class="small-container">
+
+	<div class="row">
+	   <div class="col-4">
+		  <img src="images/categories1.png">
+		  <div class="rating">
+		    <i class="fa fa-star"></i>
+			<i class="fa fa-star"></i>
+			<i class="fa fa-star"></i>
+			<i class="fa fa-star"></i>
+			<i class="fa fa-star-o"></i>
+		  </div>
+		  <h4>Ayşe Kulin</h4>
+		  <p>Adı Aylin</p>
+	    </div>
+	
+	
+	     <div class="col-4">
+		  <img src="images/categories2.png">
+		  <div class="rating">
+		    <i class="fa fa-star"></i>
+			<i class="fa fa-star"></i>
+			<i class="fa fa-star"></i>
+			<i class="fa fa-star-half-o"></i>
+			<i class="fa fa-star-o"></i>
+		  </div>
+		  <h4>Ayşe Kulin</h4>
+		  <p>Hayat</p>
+	     </div>
+	   
+	     <div class="col-4">
+		  <img src="images/categories3.png">
+		  <div class="rating">
+		    <i class="fa fa-star"></i>
+			<i class="fa fa-star"></i>
+			<i class="fa fa-star"></i>
+			<i class="fa fa-star"></i>
+			<i class="fa fa-star-half-o"></i>
+		  </div>
+		  <h4>Ayşe Kulin</h4>
+		  <p>Hüzün</p>
+	     </div>
+	   
+	     <div class="col-4">
+		  <img src="images/categories4.png">
+		  <div class="rating">
+		    <i class="fa fa-star"></i>
+			<i class="fa fa-star"></i>
+			<i class="fa fa-star"></i>
+			<i class="fa fa-star"></i>
+			<i class="fa fa-star-o"></i>
+		  </div>
+		  <h4>Ayşe Kulin</h4>
+		  <p>Füreya</p>
+	     </div>
+	</div>
+	
+	
+	  
+	  
+	
+</div>
+
+
+
+<!---------footer---------->
+<div class="footer">
+ <div class="container">
+   <div class="row">
+      <div class="footer-col-1">
+		<h3>Uygulamamızı İndirin</h3>
+		<p>Android ve ios telefonlar için uygulamayı indirin.</p>
+		<div class="app-logo">
+		   
+		    <a href=""><img src="images/playStore.png"></a>
+			<a href=""><img src="images/appStore.png"></a>
+		
+		</div>
+	  </div>  
+	  
+	   <div class="footer-col-2">
+		 <a href="index.html"><img src="images/logo2.png"></a>
+		<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+	  </div> 
+	  
+	  <div class="footer-col-3">
+		<h3>Faydalı Linkler</h3>
+		<ul>
+		  <a href=""><li>Kuponlar</li></a>
+		  <a href=""><li>Blog Yazısı</li></a>
+		  <a href=""><li>İade Politikası</li></a>
+		  <a href=""><li>Ortaklığa Katıl</li></a>
+		</ul>
+	  </div> 
+	  
+	  <div class="footer-col-4">
+		<h3>Bizi Takip Et</h3>
+		<ul>
+		  <a href=""><li>Facebook</li></a>
+		  <a href=""><li>Twitter</li></a>
+		  <a href=""><li>İnstagram</li></a>
+		  <a href=""><li>Youtube</li></a>
+		</ul>
+	  </div>   
+   </div>
+   
+   <hr>
+   <p class="Copyright">Copyright - 2020 - Kitap Severler</p>
+   
+ </div>
+</div>
+
+<!------js for toggle menu--------->
+<script>
+    var menuItems=document.getElementById("menuItems");
+	menuItems.style.maxHeight="0px";
+	function menuToggle()
+	{
+	  if(menuItems.style.maxHeight == "0px")
+	  {
+	   menuItems.style.maxHeight="200px";
+	  
+	  }
+	  else{   
+	   menuItems.style.maxHeight="0px"; 
+	  }	
+	}
+</script>
+
+<!------js for product galley/kitap görselleri için--------->
+
+<script>
+    
+	var ProductImg = document.getElementById("ProductImg");
+	
+	var SmallImg = document.getElementsByClassName("small-img");
+
+    SmallImg[0].onclick = function()
+	{
+	  ProductImg.src= SmallImg[0].src;
+	}
+	 SmallImg[1].onclick = function()
+	{
+	  ProductImg.src= SmallImg[1].src;
+	}
+	 SmallImg[2].onclick = function()
+	{
+	  ProductImg.src= SmallImg[2].src;
+	}
+	 SmallImg[3].onclick = function()
+	{
+	  ProductImg.src= SmallImg[3].src;
+	}
+
+</script>
+
+
+
+
+</body>
+</html>

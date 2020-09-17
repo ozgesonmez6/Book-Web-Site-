@@ -1,0 +1,419 @@
+<!DOCTYPE html>
+<html>
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0" >
+   <title>book</title>
+   <link href="css/style.css" rel="stylesheet" type="text/css">	
+   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+   <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"  rel="stylesheet">
+</head>
+
+<body>
+<div class="header">
+  <div class="container">
+     <div class="navbar">
+	    <div class="logo">
+		    <a href="index.html"><img src="images/logo1.png" width="125px" height="55px"></a>
+		</div>
+		
+		<nav>
+		   <ul id="menuItems">
+			   <li><a href="index.html">Ana Sayfa</a></li>
+			   <li><a href="book.html">Kitaplar</a></li>
+			   <li><a href="bookAbout.html">Kitaplar Hakkında</a></li>
+			   <li><a href="#">İletişim</a></li>
+			   <li><a href="account.html">Hesap</a></li>  
+		   </ul>
+		</nav>
+		
+		<a href="cart.html"><img src="images/bag.png" height="30px" width="30px"></a>
+		<img src="images/menu.png" class="menu-icon" onclick="menuToggle()">
+	 </div>
+	 
+	 <div class="row">
+		<div class="col-2">
+		   <h1>Kitap Severler'in <br> Tek Adresi</h1>
+		   <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.<br>
+		   Lorem Ipsum has been the industry's standard dummy text ever since the 1500s</p>
+		   <a href="" class="btn">Şimdi Keşfet &#8594; </a>
+		</div>
+		
+		<div class="col-2">
+		   <img src="images/book.png">
+		</div> 
+	 </div> 
+   </div>
+</div>
+
+<!------ featured categories ---->
+
+<div class="categories">
+  <div class="small-container">
+	<div class="row">
+	   <div class="col-3">
+	      <img src="images/categories1.png">
+	   </div>
+	   <div class="col-3">
+	       <img src="images/categories2.png">
+	   </div>
+	   <div class="col-3">
+	       	<img src="images/categories3.png">
+	   </div>  
+    </div>
+  </div>
+</div>
+
+<!------ featured books ---->
+<div class="small-container">
+
+    <h2 class="title">Kitaplar</h2>
+	<div class="row">
+	   <div class="col-4">
+		  <a href="bookAbout.html"><img src="images/categories1.png"></a>
+		  <div class="rating">
+		    <i class="fa fa-star"></i>
+			<i class="fa fa-star"></i>
+			<i class="fa fa-star"></i>
+			<i class="fa fa-star"></i>
+			<i class="fa fa-star-o"></i>
+		  </div>
+		  <a href="bookAbout.html"><h4>Ayşe Kulin</h4></a>
+		  <p>Adı Aylin</p>
+	    </div>
+	
+	
+	     <div class="col-4">
+		  <img src="images/categories2.png">
+		  <div class="rating">
+		    <i class="fa fa-star"></i>
+			<i class="fa fa-star"></i>
+			<i class="fa fa-star"></i>
+			<i class="fa fa-star-half-o"></i>
+			<i class="fa fa-star-o"></i>
+		  </div>
+		  <h4>Ayşe Kulin</h4>
+		  <p>Hayat</p>
+	     </div>
+	   
+	     <div class="col-4">
+		  <img src="images/categories3.png">
+		  <div class="rating">
+		    <i class="fa fa-star"></i>
+			<i class="fa fa-star"></i>
+			<i class="fa fa-star"></i>
+			<i class="fa fa-star"></i>
+			<i class="fa fa-star-half-o"></i>
+		  </div>
+		  <h4>Ayşe Kulin</h4>
+		  <p>Hüzün</p>
+	     </div>
+	   
+	     <div class="col-4">
+		  <img src="images/categories4.png">
+		  <div class="rating">
+		    <i class="fa fa-star"></i>
+			<i class="fa fa-star"></i>
+			<i class="fa fa-star"></i>
+			<i class="fa fa-star"></i>
+			<i class="fa fa-star-o"></i>
+		  </div>
+		  <h4>Ayşe Kulin</h4>
+		  <p>Füreya</p>
+	     </div>
+	</div>
+	
+	
+	 <h2 class="title">En Son Kitaplar</h2>
+	 <div class="row">
+	   <div class="col-4">
+		  <img src="images/categories5.png">
+		  <div class="rating">
+		    <i class="fa fa-star"></i>
+			<i class="fa fa-star"></i>
+			<i class="fa fa-star"></i>
+			<i class="fa fa-star"></i>
+			<i class="fa fa-star-o"></i>
+		  </div>
+		  <h4>Ayşe Kulin</h4>
+		  <p>Adı Aylin</p>
+	    </div>
+	
+	
+	     <div class="col-4">
+		  <img src="images/categories6.png">
+		  <div class="rating">
+		    <i class="fa fa-star"></i>
+			<i class="fa fa-star"></i>
+			<i class="fa fa-star"></i>
+			<i class="fa fa-star-half-o"></i>
+			<i class="fa fa-star-o"></i>
+		  </div>
+		  <h4>Ayşe Kulin</h4>
+		  <p>Hayat</p>
+	     </div>
+	   
+	     <div class="col-4">
+		  <img src="images/categories7.png">
+		  <div class="rating">
+		    <i class="fa fa-star"></i>
+			<i class="fa fa-star"></i>
+			<i class="fa fa-star"></i>
+			<i class="fa fa-star"></i>
+			<i class="fa fa-star-half-o"></i>
+		  </div>
+		  <h4>Ayşe Kulin</h4>
+		  <p>Hüzün</p>
+	     </div>
+	   
+	     <div class="col-4">
+		  <img src="images/categories8.png">
+		  <div class="rating">
+		    <i class="fa fa-star"></i>
+			<i class="fa fa-star"></i>
+			<i class="fa fa-star"></i>
+			<i class="fa fa-star"></i>
+			<i class="fa fa-star-o"></i>
+		  </div>
+		  <h4>Ayşe Kulin</h4>
+		  <p>Füreya</p>
+	     </div>
+	</div>
+	
+	
+	 <div class="row">
+	   <div class="col-4">
+		  <img src="images/categories1.png">
+		  <div class="rating">
+		    <i class="fa fa-star"></i>
+			<i class="fa fa-star"></i>
+			<i class="fa fa-star"></i>
+			<i class="fa fa-star"></i>
+			<i class="fa fa-star-o"></i>
+		  </div>
+		  <h4>Ayşe Kulin</h4>
+		  <p>Adı Aylin</p>
+	    </div>
+	
+	
+	     <div class="col-4">
+		  <img src="images/categories2.png">
+		  <div class="rating">
+		    <i class="fa fa-star"></i>
+			<i class="fa fa-star"></i>
+			<i class="fa fa-star"></i>
+			<i class="fa fa-star-half-o"></i>
+			<i class="fa fa-star-o"></i>
+		  </div>
+		  <h4>Ayşe Kulin</h4>
+		  <p>Hayat</p>
+	     </div>
+	   
+	     <div class="col-4">
+		  <img src="images/categories3.png">
+		  <div class="rating">
+		    <i class="fa fa-star"></i>
+			<i class="fa fa-star"></i>
+			<i class="fa fa-star"></i>
+			<i class="fa fa-star"></i>
+			<i class="fa fa-star-half-o"></i>
+		  </div>
+		  <h4>Ayşe Kulin</h4>
+		  <p>Hüzün</p>
+	     </div>
+	   
+	     <div class="col-4">
+		  <img src="images/categories4.png">
+		  <div class="rating">
+		    <i class="fa fa-star"></i>
+			<i class="fa fa-star"></i>
+			<i class="fa fa-star"></i>
+			<i class="fa fa-star"></i>
+			<i class="fa fa-star-o"></i>
+		  </div>
+		  <h4>Ayşe Kulin</h4>
+		  <p>Füreya</p>
+	     </div>
+	  </div>
+</div>
+
+<!--------------öneri----------------------->
+
+<!----<div class="offer">
+     <div class="small-container">
+	    <div class="row">
+		  <div class="col-2">
+			<img src="images/exclusive.png" class="offer-img">
+	      </div> 
+		   
+		   <div class="col-2">
+		     <p>Size Özel Ürünler</p>
+			 <h1>Lorem Ipsum</h1>
+			 <small>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, 
+			 when an unknown printer took a galley of type and scrambled it to make a type specimen book.  
+			 </small>
+			 
+			 <br>
+			 
+			 <a href="" class="btn">Şimdi Satın Al &#8594;</a>
+			 
+			 
+			 
+	       </div>
+		   
+	    </div>
+     </div>
+</div>----------------------------->
+
+<!---------referans---------->
+
+<div class="testimonial">
+    <div class="small-container">
+	  <div class="row">
+	    <div class="col-3">
+		   <i class="fa fa-quote-left"></i>
+	       <p>
+		    Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
+		   </p>
+	       <div class="rating">
+		     <i class="fa fa-star"></i>
+		     <i class="fa fa-star"></i>
+		     <i class="fa fa-star"></i>
+		     <i class="fa fa-star"></i>
+		     <i class="fa fa-star-o"></i>
+		    </div>
+		   <img src="images/user1.png">
+		   <h3>Ayşe Kulin</h3>
+       </div> 
+	   
+	    <div class="col-3">
+		   <i class="fa fa-quote-left"></i>
+	       <p>
+		    Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
+		   </p>
+	       <div class="rating">
+		     <i class="fa fa-star"></i>
+		     <i class="fa fa-star"></i>
+		     <i class="fa fa-star"></i>
+		     <i class="fa fa-star"></i>
+		     <i class="fa fa-star-o"></i>
+		    </div>
+		   <img src="images/user2.png">
+		   <h3>Ahmet Ümit</h3>
+       </div> 
+	   
+	    <div class="col-3">
+		   <i class="fa fa-quote-left"></i>
+	       <p>
+		    Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+		   </p>
+	       <div class="rating">
+		     <i class="fa fa-star"></i>
+		     <i class="fa fa-star"></i>
+		     <i class="fa fa-star"></i>
+		     <i class="fa fa-star"></i>
+		     <i class="fa fa-star-o"></i>
+		    </div>
+		   <img src="images/user3.png">
+		   <h3>Gülseren Budayıcıoğlu</h3>
+       </div> 
+      </div>
+   </div>
+</div>
+<!---------markalar---------->
+<div class="brands">
+ <div class="small-container">
+   <div class="row">
+   
+      <div class="col-5">
+	    <a href="index.html"><img src="images/logo7.png"></a>
+	  </div>
+	  <div class="col-5">
+	     <a href="index.html"><img src="images/logo4.png"></a>
+	  </div>
+	  <div class="col-5">
+	     <a href="index.html"><img src="images/logo5.png"></a>
+	  </div>
+	  <div class="col-5">
+	     <a href="index.html"><img src="images/logo6.png"></a>
+	  </div>
+	  <div class="col-5">
+	     <a href="index.html"><img src="images/logo7.png"></a>
+	  </div>
+	  
+   </div>
+ </div>
+</div>
+
+
+<!---------footer---------->
+<div class="footer">
+ <div class="container">
+   <div class="row">
+      <div class="footer-col-1">
+		<h3>Uygulamamızı İndirin</h3>
+		<p>Android ve ios telefonlar için uygulamayı indirin.</p>
+		<div class="app-logo">
+		   
+		    <a href=""><img src="images/playStore.png"></a>
+			<a href=""><img src="images/appStore.png"></a>
+		
+		</div>
+	  </div>  
+	  
+	   <div class="footer-col-2">
+		 <a href="index.html"><img src="images/logo2.png"></a>
+		<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+	  </div> 
+	  
+	  <div class="footer-col-3">
+		<h3>Faydalı Linkler</h3>
+		<ul>
+		  <a href=""><li>Kuponlar</li></a>
+		  <a href=""><li>Blog Yazısı</li></a>
+		  <a href=""><li>İade Politikası</li></a>
+		  <a href=""><li>Ortaklığa Katıl</li></a>
+		</ul>
+	  </div> 
+	  
+	  <div class="footer-col-4">
+		<h3>Bizi Takip Et</h3>
+		<ul>
+		  <a href=""><li>Facebook</li></a>
+		  <a href=""><li>Twitter</li></a>
+		  <a href=""><li>İnstagram</li></a>
+		  <a href=""><li>Youtube</li></a>
+		</ul>
+	  </div>   
+   </div>
+   
+   <hr>
+   <p class="Copyright">Copyright - 2020 - Kitap Severler</p>
+   
+ </div>
+</div>
+
+
+<!------js for toggle menu--------->
+<script>
+   
+    var menuItems=document.getElementById("menuItems");
+	menuItems.style.maxHeight="0px";
+	function menuToggle()
+	{
+	  if(menuItems.style.maxHeight == "0px")
+	  {
+	   menuItems.style.maxHeight="200px";
+	  
+	  }
+	  else{   
+	   menuItems.style.maxHeight="0px"; 
+	  }	
+	}
+
+
+</script>
+
+
+</body>
+</html>

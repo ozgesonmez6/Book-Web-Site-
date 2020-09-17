@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html>
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0" >
+   <title>book</title>
+   <link href="css/style.css" rel="stylesheet" type="text/css">	
+   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+   <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"  rel="stylesheet">
+</head>
+
+<body>
+
+  <div class="container">
+      <div class="navbar">
+	    <div class="logo">
+		    <a href="index.html"><img src="images/logo3.png" width="125px" height="55px"></a>
+		</div>
+		
+		<nav>
+		   <ul id="menuItems">
+			   <li><a href="index.html">Ana Sayfa</a></li>
+			   <li><a href="book.html">Kitaplar</a></li>
+			   <li><a href="bookAbout.html">Kitaplar Hakkında</a></li>
+			   <li><a href="#">İletişim</a></li>
+			   <li><a href="account.html">Hesap</a></li>  
+		   </ul>
+		</nav>
+		
+		<a href="cart.html"><img src="images/bag.png" height="30px" width="30px"></a>
+		<img src="images/menu.png" class="menu-icon" onclick="menuToggle()">
+	 </div>
+   </div>
+ 
+<!------account.html page--------------->
+
+<div class="account-page">
+   <div class="container">
+      <div class="row">
+	    <div class="col-2">
+		 <img src="images/book.png" width="100%">
+        </div>
+		
+		 <div class="col-2">
+		   <div class="form-container">
+		     <div class="form-btn">
+			    <span onclick="login()">Login</span>
+				<span onclick="register()">Register</span>
+				<hr id="Indicator">
+		     </div>
+			 
+			 <form id="LoginForm">
+			    <input type="text" placeholder="Kullanıcı Adı">
+			    <input type="password" placeholder="Şifre">
+			    <button type="submit" class="btn">Login</button> 
+				<a href="">Forgot Password</a>
+			 </form>
+			 
+			  <form id="RegForm">
+			    <input type="text" placeholder="Kullanıcı Adı">
+				<input type="email" placeholder="Email">
+			    <input type="password" placeholder="Şifre">
+			    <button type="submit" class="btn">Register</button> 
+			 </form>
+			 
+		   </div>
+        </div>
+		
+		
+      </div>
+   </div>
+</div>
+
+<!---------footer---------->
+<div class="footer">
+ <div class="container">
+   <div class="row">
+      <div class="footer-col-1">
+		<h3>Uygulamamızı İndirin</h3>
+		<p>Android ve ios telefonlar için uygulamayı indirin.</p>
+		<div class="app-logo">
+		   
+		    <a href=""><img src="images/playStore.png"></a>
+			<a href=""><img src="images/appStore.png"></a>
+		
+		</div>
+	  </div>  
+	  
+	   <div class="footer-col-2">
+		 <a href="index.html"><img src="images/logo2.png"></a>
+		<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+	  </div> 
+	  
+	  <div class="footer-col-3">
+		<h3>Faydalı Linkler</h3>
+		<ul>
+		  <a href=""><li>Kuponlar</li></a>
+		  <a href=""><li>Blog Yazısı</li></a>
+		  <a href=""><li>İade Politikası</li></a>
+		  <a href=""><li>Ortaklığa Katıl</li></a>
+		</ul>
+	  </div> 
+	  
+	  <div class="footer-col-4">
+		<h3>Bizi Takip Et</h3>
+		<ul>
+		  <a href=""><li>Facebook</li></a>
+		  <a href=""><li>Twitter</li></a>
+		  <a href=""><li>İnstagram</li></a>
+		  <a href=""><li>Youtube</li></a>
+		</ul>
+	  </div>   
+   </div>
+   
+   <hr>
+   <p class="Copyright">Copyright - 2020 - Kitap Severler</p>
+   
+ </div>
+</div>
+
+
+<!------js for toggle menu--------->
+<script>
+    var menuItems=document.getElementById("menuItems");
+	menuItems.style.maxHeight="0px";
+	function menuToggle()
+	{
+	  if(menuItems.style.maxHeight == "0px")
+	  {
+	   menuItems.style.maxHeight="200px";
+	  
+	  }
+	  else{   
+	   menuItems.style.maxHeight="0px"; 
+	  }	
+	}
+</script>
+
+<!------js for toggle form--------->
+<script>
+   
+   var LoginForm = document.getElementById("LoginForm");
+   var RegForm = document.getElementById("RegForm");
+   var Indicator = document.getElementById("Indicator");
+
+   function register()
+   {
+       RegForm.style.transform = "translateX(0px)";
+	   LoginForm.style.transform = "translateX(0px)";
+	   Indicator.style.transform = "translateX(100px)";
+
+   }
+    function login()
+   {
+       RegForm.style.transform = "translateX(300px)";
+	   LoginForm.style.transform = "translateX(300px)";
+	   Indicator.style.transform = "translateX(0px)";
+   }
+
+
+
+
+
+
+</script>
+
+
+</body>
+</html>
